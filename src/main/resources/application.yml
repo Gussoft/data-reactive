@@ -1,0 +1,5 @@
+spring:
+  r2dbc:
+    username: postgres
+    password: root
+    url: r2dbc:postgresql://localhost:5432/postgres?serverTimezone=America/Lima
